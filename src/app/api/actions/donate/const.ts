@@ -8,7 +8,7 @@ export const DEFAULT_SOL_ADDRESS: PublicKey = new PublicKey(
 
 export const DEFAULT_SOL_AMOUNT: number = process.env.DEFAULTAMOUNT
   ? parseFloat(process.env.DEFAULTAMOUNT)
-  : 0.1;
+  : 0.01;
 
 export const DEFAULT_RPC =
   process.env.RPC_URL_MAINNET ?? clusterApiUrl("mainnet-beta");
